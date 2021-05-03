@@ -1,103 +1,331 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head prefix="og: http://ogp.me/ns#">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124361732-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-            gtag('config', 'UA-124361732-1');
-        </script>
-    
-        <meta charset="utf-8" />
-        <title>Michael Nee Website - Welcome</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
-        <meta name="description" content="@ViewData["Description"]" />
-        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <!-- Custom fonts for this template -->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
-        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="/vendor/devicons/css/devicons.min.css" rel="stylesheet" />
-        <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
-        <link rel="stylesheet" href="~/css/abovethefold.scss" inline />
-        <link href="/css/resume.min.css" rel="stylesheet" />
-    
-        <!-- <meta property="og:type" content="website" />
-        <meta property="og:title" content="@ViewData["Title"]" />
-        <meta property="og:description" content="@ViewData["Description"]" />
-        <meta property="og:url" content="@(host + Context.Request.Path)" />
-        <meta property="og:image" content="@host/img/icon180x180.png" />
-        <meta property="og:image:width" content="180" />
-        <meta property="og:image:height" content="180" /> -->
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/icon16x16.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="~/img/icon180x180.png" />
-        <link rel="shortcut icon" href="/img/icon16x16.png" />
-        <meta name="msapplication-square150x150logo" content="/img/icon180x180.png" />
-        <link rel="edituri" type="application/rsd+xml" title="RSD" href="~/rsd.xml" />
-        <link rel="alternate" type="application/rss+xml" href="~/feed/rss/" />
-        <link rel="alternate" type="application/atom+xml" href="~/feed/atom/" />
-    </head>
-    
-    <body id="page-top" itemscope itemtype="http://schema.org/WebPage">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none"></span>
-                <span class="d-none d-lg-block">
-                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpg" alt="profile-pic" />
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/experience.html">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/education.html">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/skills.html">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/interests.html">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" target="_blank" href="https://medium.com/@michaelnee/">Blog</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" target="_blank" href="https://newcastle-my.sharepoint.com/:b:/g/personal/a5224414_newcastle_ac_uk/EdMumNXvD11PombgiTygT5gBdrt0YLXhKjTFtrQzNgDa5Q?e=h8RASY">C.V.</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/michaelnee/" target="_blank">LinkedIn</a>
-                    </li>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88799527-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-88799527-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Nee - My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#certfications">Certfications</a>
+            </li>
+            <li>
+                <a href="#personal">Personal</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Michael Nee</h1>
+            <img src="https://avatars.githubusercontent.com/u/22775080?v=4" class="responsive" />
+            <h2>Senior Software Engineer</h2>
+            <a href="https://1drv.ms/w/s!AntVx6SoFqJxh8BfjiSBXkBQwDaoWg?e=wXdL7I" class="btn-rounded-white" target="_blank">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        An experienced Senior C# .NET Developer (9+ years) currently working for Ryanair Travel Labs in the Payment Services team.  Been involved in several major projects including implementation of ThreeD Secure 2.0 for flight bookings, a major upgrade of our payment systems and being part of the process in deconstructing our monolithic reservation system to micro-service architecture working remotely with others across 3 sites.  Previously had completed MSc degree at Newcastle University in E-Business (Information Systems) achieving a distinction final grade (77%) learning/reaffirming several business and computing science skills especially around strategy, competing with IT and cloud technologies with extensive use of Azure recently and containerisation.  Before then several roles in developing systems new systems, to modifying existing systems and general IT skill use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="February 2019 – Present">
+                <h3>Ryanair Labs</h3>
+                <h4>C# .NET Engineer</h4>
+                <h5>Madrid/Remote</h5>
+                <ul>
+                    <li>Working on new features, changes and bugfixes around main reservation system (this is a 3rd party system which we interface to) which was used by over 300,000 customers daily mainly around payments including leading new Payments team.</li>
+                    <li>Working with architect and other software engineers to migrate payments over to new microservice architecture to improve scalability and agility of service, while also deconstructing existing monolithic reservation backend.</li>
+                    <li>Bug fixes, improvements and new features have improved payment conversion go from 75% to 90% by identifying bugs, handling errors, and working with client-side teams (desktop and mobile) as part of SRE (site reliability engineering).</li>
+                    <li>Integrated ThreeD Secure 2.0 solution for card payments to ensure compatibility with PSD2 regulation for Desktop and Mobile.</li>
+                    <li>Developed Credit/Debit surcharging solution which accrued revenue of €10m+ in its first 12 months.</li>
+                    <li>Implementing new tokenisation system in payments to provide even more robust security with payments via AWS VPC with card payment security.</li>
+                    <li>Work closely with QA’s to build new tools to help QA process and provide guidelines for testing to ensure bugs don’t go into production.</li>
+                </ol>
+            </div>
+
+            <div data-date="August 2017 – March 2018">
+                <h3>Mediaworks</h3>
+                <h4>C# .NET Engineer</h4>
+                <h5>Gateshead</h5>
+                <ul>
+                    <li>Umbraco C# Developer for the project with a large utility provider for their main website using an Agile (Scrum) project methodology.  Successfully went through several sprints adding new functionality.</li>
+                    <li>Leading of organisation into adopting .NET for more projects and away from purely php where appropriate (Data Driven, API Projects, Scalable Solutions).</li>
+                    <li>Implementation of Business Intelligence Platform (QlikSense) into organisation and development of employee/client portal.</li>
+                    <li>Web API’s (v2 .NET) developed, tested and implemented for two data-driven apps (iOS and Android).</li>
+                    <li>Integrations developed on several other projects from data-driven APIs using .NET Core MVC & Web API (v 1.1 and 2.0) with Docker and Azure App Service where appropriate configured for scalability.</li>
+                    <li>Introduction of new processes around .NET projects to help improve deployments and start CI/CD pipelines within Azure.</li>
                 </ul>
             </div>
-        </nav>
-        <main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
-            <noscript>
-                <p class="container">Some features of this website do not work as expected when JavaScript is disabled</p>
-            </noscript>
-            
-            <main itemprop="mainEntity" itemscope="" itemtype="http://schema.org/Blog"> <noscript> <p class=container>Some features of this website do not work as expected when JavaScript is disabled</p> </noscript> <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about"> <div class="my-auto"> <h1 class="mb-0"> Michael <span class="text-primary">Nee</span> </h1> <div class="subheading mb-5"> Newcastle-upon-Tyne, United Kingdom <a href="mailto:info@michael-nee.co.uk">info@michael-nee.co.uk</a> </div> <p class="mb-5"> Hello and welcome to my website. </p> <p class="mb-5"> About to complete and graduate from Newcastle University in E-business (Information Systems) with target grade of Distinction (70%). Learnt number of new technical, management and business skills across degree in able to manage IT and gain an advantage from implementation. Previously a senior C# developer with experience in several organisations and project sizes, with lots of work recently involving .NET core (2.1), cloud migration &amp; set-up, and setting up DevOps CI/CD pipelines to ensure safe and continuous delivery of code. </p> <p class="mb-5"> Open to new opportunities, willing to relocate across the UK or Europe for new challenges. Available from middle of September 2018. References available on request. </p> <ul class="list-inline list-social-icons mb-0"><li class="list-inline-item"> <a href="https://www.facebook.com/michaelneesoftware" target="_blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span> </a> </li> <li class="list-inline-item"> <a href="https://twitter.com/michael_nee1" target="_blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span> </a> </li> <li class="list-inline-item"> <a href="https://www.linkedin.com/in/michaelnee/" target="_blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i> </span> </a> </li> <li class="list-inline-item"> <a href="https://github.com/michael-nee" target="_blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i> </span> </a> </li></ul> </div> </section> </main>
-        </main>
-    
-        <link rel="stylesheet" href="/css/belowthefold.scss" />
-        <script src="/vendor/jquery/jquery.min.js"></script>
-        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <!-- Plugin JavaScript -->
-        <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-        <!-- Custom scripts for this template -->
-        <script src="/js/resume.min.js"></script>
-        <script src="/js/site.js" async defer></script>
-    </body>
-    </html>
+
+            <div data-date="March 2017 – July 2017">
+                <h3>Techmarx</h3>
+                <h4>Contract Consultant</h4>
+                <h5>Washington</h5>
+                <ul>
+                    <li>Development of new Client-Side Portal using ASP.net 4.5, MVC (WebAPI 2), Entity Framework, jQuery and Knockout JS.  Using Domain Driven Design/Clean Architecture approach to development.  UX design based.</li>
+                    <li>Features which include Job Management, Timesheet & Expense Submission, Invoice & Purchase Order Creation (to PDF), Staff Management & Allocation, Holidays + various smaller features.</li>
+                    <li>Deep integration with Main Client to enhance collaboration on projects.</li>
+                    <li>Offline forms compatible with iOS and Android browsers for staff when on the client device.</li>
+                    <li>Android Vehicle Tracking App developed with the use of Xamarin and WebAPI 2 with live tracking & history when using the client device and portal.</li>
+                    <li>Migration to Azure and AWS of hosting and services.</li>
+                </ul>
+            </div>
+            <div data-date="February 2015 – September 2016">
+                <h3>Inspired Digital Agency</h3>
+                <h4>Fullstack C# .NET Developer</h4>
+                <h5>Newcastle-upon-Tyne</h5>
+                <ul>
+                    <li>Development of new features on multiple projects across various languages and frameworks.  (C#, WebForms, MVC, php) in an Agile environment.</li>
+                    <li>Payment integrations with Stripe and SagePay<./li>
+                    <li>Development support for several Wordpress projects (php).</li>
+                    <li>Frontend development on several websites.</li>
+                    <li>Technical support for clients and staff (Email Configuration, PC/Laptop setup).</li>
+                    <li>Creation of New Email Direct Marketing process which improved the success and deliverability.</li>
+                </ul>
+            </div>
+            <div data-date="October 2014 – January 2015">
+                <h4>Contract Developer and Consultant</h4>
+                <h5>Newcastle-upon-Tyne</h5>
+                <ul>
+                    <li>Development of new features on multiple projects across various languages and frameworks.  (C#, WebForms, MVC, php) in an Agile environment.</li>
+                    <li>Payment integrations with Stripe and SagePay<./li>
+                    <li>Development support for several Wordpress projects (php).</li>
+                    <li>Frontend development on several websites.</li>
+                    <li>Technical support for clients and staff (Email Configuration, PC/Laptop setup).</li>
+                    <li>Creation of New Email Direct Marketing process which improved the success and deliverability.</li>
+                </ul>
+            </div>
+            <div data-date="August 2011 – September 2014">
+                <h3>Mr. Filby Logistics / Low Cost Parcels</h3>
+                <h4>IT consultant and developer</h4>
+                <h5>North Shields / London</h5>
+                <ul>
+                    <li>The installation and configuration of required infrastructure for both warehouses & offices in both the North East and London including PC’s, Networks, Servers, and VOIP.</li>
+                    <li>Development of several systems to help with operations with different clients. Job tracking portal, Stock Management, Driver POD systems (with Android Mobile app using jQuery Mobile) to support operations.</li>
+                    <li>Design and Implementation of IT Infrastructure (Hardware, Software, Servers, VOIP).</li>
+                    <li>Development of central dispatch system used by clients and staff.  Used to process up to 10,000 shipments at peak time and over 200 users using the system daily.  Technologies MySQL, .NET C# Framework, WebForms and MVC.</li>
+                    <li>Integration with 3rd Party systems to extended functionality (eBay, Linnworks, Yodel Tracking, Royal Mail).</li>
+                </ul>
+            </div>
+            <div data-date="August 2011 – September 2014">
+                <h3>Carphone Warehouse / BestBuy Group</h3>
+                <h4>Graduate IT Consultant</h4>
+                <h5>London</h5>
+                <ul>
+                    <li>Placed within various information systems departments to gain commercial experience.</li>
+                    <li>Project Management and Business Analyst experience across several projects.</li>
+                    <li>Designed requirements for an important data-warehousing project.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Newcastle-upon-Tyne</h3>
+            <span class="education-date">Sept 2016 - Sept 2018</span>
+            <h4>MSc in E-business (information-systems)</h4>
+            <h5>Final Grade: Distinction (77%)</h5>
+            <p>Dissertation (Holistic Benchmarking of Containerised Applications): 84% (Winner of Best Dissertation)</p>
+            <p>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3308558.3314137" target="_blank">SmartDBO: Smart Docker Benchmarking Orchestrator for Web-application | The World Wide Web Conference (acm.org)</a>
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Northumbria University of Newcastle-upon-Tyne</h3>
+            <span class="education-date">Sept 2006 - August 2009</span>
+            <h4>BSc Information Technology Management for Business (ITMB)</h4>
+            <h5>Final Grade: First (75%)</h5>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C#</li>
+            <li>.NET Framework + Core</li>
+            <li>Azure</li>
+            <li>AWS</li>
+            <li>Javascript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>MVC/Razor</li>
+            <li>WebApi</li>
+            <li>Docker</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="certfications" class="background-alt">
+        <h2 class="heading">Certifications</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://images.credly.com/size/220x220/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Microsoft Certified: Azure Developer Associate</h3>
+                        <a href="https://www.credly.com/badges/324d3ec4-2b28-4303-90f0-d5c33b2681db/public_url" target="_blank">View Badge</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://images.credly.com/size/220x220/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Microsoft Certified: Azure Fundamentals</h3>
+                        <a href="https://www.credly.com/badges/0eb04126-d185-4031-994f-c50014be82c3/public_url" target="_blank">View certfication</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+
+    <!-- End of certifications -->
+
+    <div id="personal" class="background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Personal - About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>Enjoy cycling, tennis travelling, food, technology</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mqkwednr">
+                <input type="hidden" name="_subject" value="Contact request from www.michael-nee.co.uk" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 Michael Nee
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/michael-nee" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/7611950/michael-nee" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/michaelnee/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
